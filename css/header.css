@@ -1,0 +1,17 @@
+.wrapperHeader {
+  block-size: 4.0625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.wrapperHeader img {
+  inline-size: 4.3125rem;
+  block-size: 2.4375rem;
+}
+
+header .buttonStyle.purple {
+  inline-size: 9.5625rem;
+  margin: 0;
+}

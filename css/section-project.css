@@ -1,0 +1,36 @@
+.wrapperProject {
+  padding: 2.5rem 1rem;
+}
+
+.wrapperProject p {
+  color: var(--colorPurple);
+  font: var(--body1);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.wrapperProject p~p {
+  font-weight: bold;
+}
+
+.containerIcon-arrow {
+  inline-size: 5rem;
+  block-size: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.wrapperProject img {
+  display: block;
+  margin: 5rem auto 2.5rem auto;
+  min-inline-size: 20.47875rem;
+  block-size: 12.3125rem;
+}
+
+.wrapperProject .lastChild-p {
+  font: var(--body1);
+  text-align: start;
+}

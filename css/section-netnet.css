@@ -1,0 +1,14 @@
+.wrapperNetnet {
+  padding: 2.5rem 1rem;
+}
+
+.wrapperNetnet img {
+  display: block;
+  margin: auto auto 2.5rem auto;
+  inline-size: 100%;
+}
+
+.wrapperNetnet p {
+  font: var(--body1);
+  color: var(--colorPurple);
+}

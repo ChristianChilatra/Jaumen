@@ -1,0 +1,14 @@
+.wrapperMarvol {
+  padding: 2.5rem 1rem;
+}
+
+.wrapperMarvol img {
+  display: block;
+  margin: auto auto 2.5rem auto;
+  inline-size: 100%;
+}
+
+.wrapperMarvol p {
+  font: var(--body1);
+  color: var(--colorPurple);
+}

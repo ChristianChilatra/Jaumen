@@ -1,0 +1,46 @@
+.wrapperContact {
+  padding: 5rem 1rem;
+}
+
+.wrapperContact p {
+  font: var(--body1);
+  color: var(--colorWhite);
+}
+
+.formContact label {
+  margin: 0.5rem 0 0.5rem 0;
+  display: block;
+  margin-inline-start: 1rem;
+  font: var(--body1);
+  font-weight: 700;
+  color: var(--colorPurple);
+}
+
+.formContact input {
+  outline: none;
+  inline-size: calc(100% - 2rem);
+  block-size: 1.625rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 0;
+}
+
+.formContact input::placeholder {
+  font: var(--body1);
+}
+
+.formContact input[id*="messenge"] {
+  block-size: 6.875rem;
+  margin-block-end: 1rem;
+}
+
+.formContact input[type*="submit"] {
+  inline-size: 100%;
+  block-size: 3.0625rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font: var(--button);
+  letter-spacing: 0.078125rem;
+  background-color: var(--colorPurple);
+  color: var(--colorWhite);
+}

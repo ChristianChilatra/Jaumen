@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p{
+  display: inline-block;
+  font: var(--body1);
+  color: var(--colorWhite);
+  text-align: center;
+}

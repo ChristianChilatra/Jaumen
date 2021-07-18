@@ -1,0 +1,33 @@
+@import url(container-contact.css);
+.wrapperMain {
+  padding: 1rem;
+}
+
+.wrapperMain img {
+  display: block;
+  margin: auto;
+  inline-size: 20.5rem;
+  block-size: 20.66375rem;
+  padding-block-end: 1rem;
+}
+
+.wrapperMain h2 {
+  font: var(--headLine5);
+  color: var(--colorPurple);
+  margin: 0;
+}
+
+.wrapperMain h1 {
+  font: var(--headLine3);
+  color: var(--colorPurple);
+  margin: 0;
+}
+
+.wrapperMain p {
+  font: var(--body1);
+  color: var(--colorPurple);
+}
+
+.wrapperMain .buttonStyle {
+  margin-block-start: 2.5rem;
+}

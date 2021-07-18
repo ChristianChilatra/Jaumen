@@ -1,0 +1,25 @@
+.comment {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: start;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2.485rem);
+}
+
+.comment img {
+  display: block;
+  margin: auto auto 1.5rem auto;
+}
+
+.comment blockquote {
+  margin: 0;
+  font: var(--citeText);
+  color: var(--colorPurple);
+  line-height: 1.625rem;
+  margin-block-end: 1.5rem;
+}
+
+.comment cite {
+  font: var(--caption);
+  color: var(--colorPurple);
+}
