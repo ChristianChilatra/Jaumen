@@ -13,3 +13,34 @@
   font: var(--body1);
   color: var(--colorPurple);
 }
+.containerButton{
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .wrapperMarvol {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .wrapperMarvol img {
+    block-size: 39.25rem;
+    inline-size: 28rem;
+    margin: 0;
+  }
+  .descriptionMarvol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 28rem;
+  }
+  .wrapperMarvol .buttonStyle {
+    inline-size: 10.5rem;
+  }
+  .containerButton {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}

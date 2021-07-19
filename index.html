@@ -10,37 +10,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
   <title>Jaumen</title>
 </head>
 <body>
 <header>
   <div class="wrapperHeader">
-    <img src="icon/LOGO.svg" alt="">
-    <button class="buttonStyle purple">CURRÍCULUM</button>
+    <img src="icon/LOGO.svg" alt="Logo">
+    <nav>
+      <a href="#">HOLA</a>
+      <a href="#">PROYECTOS</a>
+      <a href="#">HABLEMOS</a>
+    </nav>
+    <a href="#" class="buttonStyle purple">CURRÍCULUM</a>
   </div>
 </header>
 <main>
   <div class="wrapperMain">
     <img src="img/user.png" alt="Foto jaumen">
-    <h2>¡Hola a todos!</h2>
-    <h1>Soy Jaume</h1>
-    <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-    <div class="containerButton">
-      <button class="containerContact">
-        <i class="icon-phone"></i>
-      </button>
-      <button class="containerContact">
-        <i class="icon-mail"></i>
-      </button>
-      <button class="containerContact">
-        <i class="icon-instagram"></i>
-      </button>
-      <button class="containerContact">
-        <i class="icon-twitter"></i>
-      </button>
+    <div class="descriptionUser">
+      <h2>¡Hola a todos!</h2>
+      <h1>Soy Jaume</h1>
+      <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+      <div class="containerButton-contact">
+        <a href="#" class="containerContact">
+          <i class="icon-phone"></i>
+        </a>
+        <a href="#" class="containerContact">
+          <i class="icon-mail"></i>
+        </a>
+        <a href="#" class="containerContact">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="#" class="containerContact">
+          <i class="icon-twitter"></i>
+        </a>
+      </div>
+      <a href="#" class="buttonStyle purple">DESCARGA CURRÍCULUM</a>
     </div>
-    <button class="buttonStyle purple">DESCARGA CURRÍCULUM</button>
   </div>
 </main>
 <section>
@@ -50,12 +57,20 @@
     <div class="containerIcon-arrow">
       <i class="icon-arrowDown"></i>
     </div>
-    <img src="img/page's.png" alt="imagen de paginas web">
-    <h3 class="h3Style">leonidasesteban.com</h3>
-    <p class="lastChild-p">Accede a más de 120 proyectos que te ayudarán a mejorar <br>
-    tus habilidades como desarrollador Front-End.</p>
-    <button class="buttonStyle">VER CÓDIGO</button>
-    <button class="buttonStyle purple">VER PROYECTO</button>
+    <div class="containerProject">
+      <img src="img/page's.png" alt="imagen de paginas web">
+      <div class="descriptionProject">
+        <div>
+          <h3 class="h3Style">leonidasesteban.com</h3>
+        </div>
+        <p class="lastChild-p">Accede a más de 120 proyectos que te ayudarán a mejorar <br>
+        tus habilidades como desarrollador Front-End.</p>
+        <div class="containerButton">
+          <a href="#" class="buttonStyle">VER CÓDIGO</a>
+          <a href="#" class="buttonStyle purple">VER PROYECTO</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <div class="wrapperComment">
@@ -69,11 +84,17 @@
 <section>
   <div class="wrapperMarvol">
     <img src="img/page-marvol.svg" alt="pagina marvel en ipad">
-    <h3 class="h3Style">MARVOL</h3>
-    <p>Es el sitio oficial de Marvol <br>Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
-    más oficiales de Marvol.</p>
-    <button class="buttonStyle">VER CÓDIGO</button>
-    <button class="buttonStyle purple">VER PROYECTO</button>
+    <div class="descriptionMarvol">
+      <div>
+        <h3 class="h3Style">MARVOL</h3>
+      </div>
+      <p>Es el sitio oficial de Marvol <br>Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
+      más oficiales de Marvol.</p>
+      <div class="containerButton">
+        <a href="#" class="buttonStyle">VER CÓDIGO</a>
+        <a href="#" class="buttonStyle purple">VER PROYECTO</a>
+      </div>
+    </div>
   </div>
 </section>
 <section>
@@ -88,11 +109,17 @@
 <section>
   <div class="wrapperNetnet">
     <img src="img/page-netnet.svg" alt="pagina Netnet">
-    <h3 class="h3Style">NETNET</h3>
-    <p>Películas y series ilimitadas y mucho más.
-    Disfruta donde quieras. Cancela cuando quieras.</p>
-    <button class="buttonStyle">VER CÓDIGO</button>
-    <button class="buttonStyle purple">VER PROYECTO</button>
+    <div class="descriptionNetnet">
+      <div>
+        <h3 class="h3Style">NETNET</h3>
+      </div>
+      <p>Películas y series ilimitadas y mucho más.
+      Disfruta donde quieras. Cancela cuando quieras.</p>
+      <div class="containerButton">
+        <a href="#" class="buttonStyle">VER CÓDIGO</a>
+        <a href="#" class="buttonStyle purple">VER PROYECTO</a>
+      </div>
+    </div>
   </div>
 </section>
 <div class="wrapperComment">
@@ -118,23 +145,24 @@
   </div>
 </section>
 <footer>
-  <div class="containerButton">
-    <button class="containerContact">
+  <div class="containerButton-contact">
+    <a href="#" class="containerContact">
       <i class="icon-phone"></i>
-    </button>
-    <button class="containerContact">
+    </a>
+    <a href="#" class="containerContact">
       <i class="icon-mail"></i>
-    </button>
-    <button class="containerContact">
+    </a>
+    <a href="#" class="containerContact">
       <i class="icon-instagram"></i>
-    </button>
-    <button class="containerContact">
+    </a>
+    <a href="#" class="containerContact">
       <i class="icon-twitter"></i>
-    </button>
+    </a>
   </div>
 
   <p>Hecho con <i class="icon-fav"></i> de Jaume.</p>
   <p>Copyright 2021 - Todos los derechos reservados.</p>
+  <img src="icon/LOGO-white.svg" alt="Logo">
 </footer>
 </body>
 </html>

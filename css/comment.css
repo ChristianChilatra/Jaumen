@@ -13,7 +13,7 @@
 
 .comment blockquote {
   margin: 0;
-  font: var(--citeText);
+  font: var(--textSecond);
   color: var(--colorPurple);
   line-height: 1.625rem;
   margin-block-end: 1.5rem;
@@ -22,4 +22,22 @@
 .comment cite {
   font: var(--caption);
   color: var(--colorPurple);
+}
+
+@media screen and (min-width: 900px) {
+  .comment {
+    padding: 5rem;
+    margin: 0 6.3125rem;
+  }
+  .comment blockquote {
+    font-size: 1.6rem;
+    line-height: 3.4375rem;
+    text-align: center;
+  }
+  .comment cite {
+    display: block;
+    text-align: center;
+    font: var(--headLine5);
+    font-size: 1.2rem;
+  }
 }

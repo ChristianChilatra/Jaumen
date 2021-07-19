@@ -4,9 +4,28 @@ footer {
   align-items: center;
 }
 
-footer p{
+footer p {
   display: inline-block;
   font: var(--body1);
   color: var(--colorWhite);
   text-align: center;
+}
+
+footer img {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-block-end: 2.4375rem;
+  }
+  footer img {
+    visibility: visible;
+  }
+  footer .containerContact {
+    background: var(--colorWhite);
+  }
 }

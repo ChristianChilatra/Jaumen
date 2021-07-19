@@ -11,7 +11,29 @@
   block-size: 2.4375rem;
 }
 
+.wrapperHeader nav {
+  visibility: hidden;
+}
+
 header .buttonStyle.purple {
   inline-size: 9.5625rem;
   margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .wrapperHeader {
+    justify-content: space-around;
+  }
+  .wrapperHeader nav {
+    visibility: visible;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .wrapperHeader a {
+    text-decoration: none;
+    font: var(--button);
+  }
+  .wrapperHeader a:hover {
+    color: var(--colorWhite);
+  }
 }

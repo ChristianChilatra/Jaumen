@@ -34,3 +34,59 @@
   font: var(--body1);
   text-align: start;
 }
+.containerButton{
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .wrapperProject {
+    padding: 12.5rem 1rem 5rem 1rem;
+    position: relative;
+  }
+  .wrapperProject p {
+    margin: auto;
+    inline-size: 56.25rem;
+    font-family: var(--fontSecond);
+    font-size: 2.125rem;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .wrapperProject p~p {
+    font-size: 1.5rem;
+    margin: 1.5rem auto 1.5rem auto;
+  }
+  .containerIcon-arrow {
+    margin-block-end: 12.5rem;
+  }
+  .containerProject {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .descriptionProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 28.0625rem;
+    gap: 1rem;
+  }
+  .wrapperProject img {
+    inline-size: 39.8125rem;
+    block-size: 24.5rem;
+    margin: 0;
+  }
+  .wrapperProject .lastChild-p {
+    margin: 0;
+    inline-size: auto;
+  }
+  .wrapperProject .buttonStyle {
+    inline-size: 10.5rem;
+  }
+  .containerButton {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}

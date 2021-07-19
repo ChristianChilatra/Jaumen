@@ -1,4 +1,4 @@
-.containerButton {
+.containerButton-contact {
   display: flex;
   gap: 1rem;
 }
@@ -13,4 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
+  text-decoration: none;
 }

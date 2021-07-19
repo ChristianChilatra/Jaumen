@@ -16,7 +16,7 @@
   --colorOrange: #FAD7A1;
   --colorWhite: #FFFFFF;
   --fontBase: 'Poppins', sans-serif;
-  --fontCite: 'Oxygen', sans-serif;
+  --fontSecond: 'Oxygen', sans-serif;
   --headLine1: bold 5.9375rem/normal var(--fontBase);
   --headLine2: bold 3.6875rem/normal var(--fontBase);
   --headLine3: bold 3rem/normal var(--fontBase);
@@ -26,7 +26,7 @@
   --body2: normal 0.875rem/normal var(--fontBase);
   --button: bold 0.875rem/normal var(--fontBase);
   --caption: normal 0.75rem/normal var(--fontBase);
-  --citeText: bold 1rem/normal var(--fontCite);
+  --textSecond: bold 1rem/normal var(--fontSecond);
 }
 
 body {

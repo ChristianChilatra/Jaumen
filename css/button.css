@@ -1,6 +1,7 @@
 .buttonStyle {
+  display: block;
   margin-block-start: 1rem;
-  inline-size: 100%;
+  inline-size: calc(100% - 0.5rem);
   block-size: 3.0625rem;
   border-radius: 0.25rem;
   border: 0.25rem solid var(--colorPurple);
@@ -9,6 +10,10 @@
   color: var(--colorPurple);
   font: var(--button);
   letter-spacing: 0.078125rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonStyle.purple {

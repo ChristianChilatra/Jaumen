@@ -7,3 +7,9 @@
   background: var(--colorPurple);
   box-shadow: -0.3rem 0.3rem var(--colorWhite);
 }
+
+@media screen and (min-width: 900px) {
+  .h3Style{
+    font-size: 2.125rem;
+  }
+}
