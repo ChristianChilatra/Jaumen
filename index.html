@@ -140,13 +140,13 @@
   <div class="wrapperContact">
     <h2 class="headingStyle">HABLEMOS</h2>
     <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
-    <form class="formContact" action="">
+    <form class="formContact" id="form" action="https://formspree.io/f/mpzkjkyj" method="POST" >
       <label for="nameInput">Nombre completo</label>
       <input type="text" name="nameInput" id="nameInput" placeholder="Nombre" required>
       <label for="emailInput">Correo electrónico</label>
       <input type="email" name="nameInput" id="emailInput" placeholder="Correo" required>
       <label for="messenge">Mensaje</label>
-      <input type="text" name="messenge" id="messenge">
+      <textarea name="messenge" id="messenge"></textarea>
       <input type="submit" value="ENVIAR MENSAJE">
     </form>
   </div>
@@ -172,5 +172,6 @@
   <p>Copyright 2021 - Todos los derechos reservados.</p>
   <img src="icon/LOGO-white.svg" width="69" height="39" alt="Logo">
 </footer>
+<script src="Script/form.js"></script>
 </body>
 </html>

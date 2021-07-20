@@ -23,15 +23,21 @@
   border-radius: 0.5rem;
   padding: 0.75rem 1rem;
   border: 0;
+  font: var(--body1);
 }
 
 .formContact input::placeholder {
   font: var(--body1);
 }
 
-.formContact input[id*="messenge"] {
+.formContact textarea {
   block-size: 6.875rem;
+  inline-size: calc(100% - 2rem);
+  padding: 0.75rem 1rem;
   margin-block-end: 1rem;
+  font: var(--body1);
+  outline: none;
+  border-radius: 0.5rem;
 }
 
 .formContact input[type*="submit"] {
@@ -50,11 +56,11 @@
     inline-size: 33.9375rem;
     margin: auto;
   }
-  .wrapperContact .h3Style {
+  .wrapperContact .headingStyle {
     inline-size: calc(100% - 1rem);
     text-align: center;
   }
-  .wrapperContact p{
+  .wrapperContact p {
     text-align: center;
   }
 }
