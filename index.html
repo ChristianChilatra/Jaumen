@@ -7,16 +7,19 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/index.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <meta name="description" content="Portafolio de presentacion, contiene informacion sobre proyectos y contacto del FrontEnd">
+
   <title>Jaumen</title>
 </head>
 <body>
 <header>
   <div class="wrapperHeader">
-    <img src="icon/LOGO.svg" alt="Logo">
+    <img src="icon/LOGO.svg" width="69" height="39" alt="Logo">
     <nav>
       <a href="#">HOLA</a>
       <a href="#">PROYECTOS</a>
@@ -27,23 +30,23 @@
 </header>
 <main>
   <div class="wrapperMain">
-    <img src="img/user.png" alt="Foto jaumen">
+    <img src="img/user.svg" width="500" height="504" alt="Foto jaumen">
     <div class="descriptionUser">
-      <h2>¡Hola a todos!</h2>
+      <p>¡Hola a todos!</p>
       <h1>Soy Jaume</h1>
       <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-      <div class="containerButton-contact">
-        <a href="#" class="containerContact">
-          <i class="icon-phone"></i>
+      <div class="containerButton-contact" role="contentinfo">
+        <a href="tel:+573222264771" class="containerContact">
+          <i class="icon-phone" aria-label="Numero de Contacto"></i>
         </a>
-        <a href="#" class="containerContact">
+        <a href="mailto:chilatra1998@gmail.com" aria-label="Correo Electronico" class="containerContact">
           <i class="icon-mail"></i>
         </a>
-        <a href="#" class="containerContact">
+        <a href="https://www.instagram.com/christianchilatra/?hl=es" aria-label="Perfil Instagram" rel="noopener"rel="noreferrer"target="_blank" class="containerContact">
           <i class="icon-instagram"></i>
         </a>
-        <a href="#" class="containerContact">
-          <i class="icon-twitter"></i>
+        <a href="https://github.com/ChristianChilatra?tab=repositories" aria-label="Perfil GitHub" rel="noopener"rel="noreferrer"target="_blank" class="containerContact">
+          <i class="icon-github"></i>
         </a>
       </div>
       <a href="#" class="buttonStyle purple">DESCARGA CURRÍCULUM</a>
@@ -58,10 +61,10 @@
       <i class="icon-arrowDown"></i>
     </div>
     <div class="containerProject">
-      <img src="img/page's.svg" alt="imagen de paginas web">
+      <img src="img/page's.svg" width="327" height="197" alt="imagen de paginas web">
       <div class="descriptionProject">
         <div>
-          <h3 class="h3Style">leonidasesteban.com</h3>
+          <h2 class="headingStyle">leonidasesteban.com</h2>
         </div>
         <p class="lastChild-p">Accede a más de 120 proyectos que te ayudarán a mejorar <br>
         tus habilidades como desarrollador Front-End.</p>
@@ -75,7 +78,7 @@
 </section>
 <div class="wrapperComment">
   <div class="comment">
-    <img src="img/user-leonidas.png" alt="iamgen CEO Leonidas Esteban">
+    <img src="img/user-leonidas.svg" width="64" height="64" alt="iamgen CEO Leonidas Esteban">
     <blockquote>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les
     llevó 1,5 meses ".</blockquote>
     <cite>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</cite>
@@ -83,10 +86,10 @@
 </div>
 <section>
   <div class="wrapperMarvol">
-    <img src="img/page-marvol.svg" alt="pagina marvel en ipad">
+    <img src="img/page-marvol.svg" width="328" height="322" alt="pagina marvel en ipad">
     <div class="descriptionMarvol">
       <div>
-        <h3 class="h3Style">MARVOL</h3>
+        <h2 class="headingStyle">MARVOL</h2>
       </div>
       <p>Es el sitio oficial de Marvol <br>Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
       más oficiales de Marvol.</p>
@@ -100,7 +103,7 @@
 <section>
 <div class="wrapperComment">
   <div class="comment">
-    <img src="img/user-jason.png" alt="iamgen CEO Leonidas Esteban">
+    <img src="img/user-jason.svg" width="64" height="64" alt="iamgen CEO Leonidas Esteban">
     <blockquote>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</blockquote>
     <cite>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</cite>
   </div>
@@ -108,10 +111,10 @@
 </section>
 <section>
   <div class="wrapperNetnet">
-    <img src="img/page-netnet.svg" alt="pagina Netnet">
+    <img src="img/page-netnet.svg" width="302" height="536" alt="pagina Netnet">
     <div class="descriptionNetnet">
       <div>
-        <h3 class="h3Style">NETNET</h3>
+        <h2 class="headingStyle">NETNET</h2>
       </div>
       <p>Películas y series ilimitadas y mucho más.
       Disfruta donde quieras. Cancela cuando quieras.</p>
@@ -124,14 +127,14 @@
 </section>
 <div class="wrapperComment">
   <div class="comment">
-    <img src="img/user-marco.png" alt="iamgen CEO Leonidas Esteban">
+    <img src="img/user-marco.svg" width="64" height="64" alt="iamgen CEO Leonidas Esteban">
     <blockquote>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</blockquote>
     <cite>MARCO CORTEZ / NETNET</cite>
   </div>
 </div>
 <section>
   <div class="wrapperContact">
-    <h3 class="h3Style">HABLEMOS</h3>
+    <h2 class="headingStyle">HABLEMOS</h2>
     <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
     <form class="formContact" action="">
       <label for="nameInput">Nombre completo</label>
@@ -146,23 +149,24 @@
 </section>
 <footer>
   <div class="containerButton-contact">
-    <a href="#" class="containerContact">
-      <i class="icon-phone"></i>
+    <a href="tel:+573222264771" class="containerContact">
+      <i class="icon-phone" aria-label="Numero de Contacto"></i>
     </a>
-    <a href="#" class="containerContact">
+    <a href="mailto:chilatra1998@gmail.com" aria-label="Correo Electronico" class="containerContact">
       <i class="icon-mail"></i>
     </a>
-    <a href="#" class="containerContact">
+    <a href="https://www.instagram.com/christianchilatra/?hl=es" aria-label="Perfil Instagram" rel="noopener"rel="noreferrer"target="_blank"
+      class="containerContact">
       <i class="icon-instagram"></i>
     </a>
-    <a href="#" class="containerContact">
-      <i class="icon-twitter"></i>
+    <a href="https://github.com/ChristianChilatra?tab=repositories" aria-label="Perfil GitHub" rel="noopener"rel="noreferrer"target="_blank"
+      class="containerContact">
+      <i class="icon-github"></i>
     </a>
   </div>
-
   <p>Hecho con <i class="icon-fav"></i> de Jaume.</p>
   <p>Copyright 2021 - Todos los derechos reservados.</p>
-  <img src="icon/LOGO-white.svg" alt="Logo">
+  <img src="icon/LOGO-white.svg" width="69" height="39" alt="Logo">
 </footer>
 </body>
 </html>

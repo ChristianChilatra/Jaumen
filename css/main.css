@@ -6,19 +6,19 @@
 .wrapperMain img {
   display: block;
   margin: auto;
-  inline-size: auto;
-  block-size: 20.66375rem;
+  inline-size: 20.5rem;
+  min-block-size: 20.66375rem;
   padding-block-end: 1rem;
-}
-
-.wrapperMain h2 {
-  font: var(--headLine5);
-  color: var(--colorPurple);
-  margin: 0;
 }
 
 .wrapperMain h1 {
   font: var(--headLine3);
+  color: var(--colorPurple);
+  margin: 0;
+}
+
+.wrapperMain p:first-child {
+  font: var(--headLine5);
   color: var(--colorPurple);
   margin: 0;
 }
@@ -32,7 +32,6 @@
   margin-block-start: 2.5rem;
 }
 
-
 @media screen and (min-width: 900px) {
   .wrapperMain {
     display: flex;
@@ -41,10 +40,10 @@
     gap: 4.1875rem;
   }
   .wrapperMain img {
+    inline-size: 31.25rem;
     block-size: 31.5rem;
     margin: 0;
   }
-
   .wrapperMain .buttonStyle {
     visibility: hidden;
   }
