@@ -11,7 +11,7 @@
 @import url(comment.css);
 @import url(footer.css);
 :root {
-  --colorPurple: #310A90;
+  --colorPurple: #311579;
   --colorGreen: #42E2B8;
   --colorOrange: #FAD7A1;
   --colorWhite: #FFFFFF;
@@ -31,5 +31,10 @@
 
 body {
   margin: 0;
-  background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  background: #E0EAFC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
