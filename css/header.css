@@ -33,16 +33,19 @@ header .buttonStyle.purple {
     justify-content: center;
     gap: 12rem;
   }
+
   .wrapperHeader nav {
     visibility: visible;
     display: flex;
     gap: 2.5rem;
   }
+
   .wrapperHeader a {
     text-decoration: none;
     font: var(--button);
     color: var(--colorPurple);
   }
+
   .wrapperHeader a:hover {
     color: var(--colorWhite);
   }

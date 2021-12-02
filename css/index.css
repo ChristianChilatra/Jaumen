@@ -4,12 +4,13 @@
 @import url(main.css);
 @import url(section-project.css);
 @import url(section-comment.css);
-@import url(section-marvol.css);
-@import url(section-netnet.css);
+@import url(section-project-2.css);
+@import url(section-project-3.css);
 @import url(section-contact.css);
 @import url(headingStyle.css);
 @import url(comment.css);
 @import url(footer.css);
+
 :root {
   --colorPurple: #311579;
   --colorGreen: #42E2B8;
@@ -27,6 +28,9 @@
   --button: bold 0.875rem/normal var(--fontBase);
   --caption: normal 0.75rem/normal var(--fontBase);
   --textSecond: bold 1rem/normal var(--fontSecond);
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,4 +41,5 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #CFDEF3, #E0EAFC);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

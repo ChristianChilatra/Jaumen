@@ -1,0 +1,50 @@
+.containerProject_3 {
+  padding: 2.5rem 1rem;
+}
+
+.containerProject_3 img {
+  display: block;
+  margin: auto auto 2.5rem auto;
+  inline-size: 15rem;
+  min-inline-size: 5.5rem;
+  block-size: 15rem;
+  border: 2px solid var(--colorPurple);
+  border-radius: 1rem;
+}
+
+.containerProject_3 p {
+  font: var(--body1);
+  color: var(--colorPurple);
+}
+
+@media screen and (min-width: 900px) {
+  .containerProject_3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 13.3125rem;
+  }
+
+  .containerProject_3 img {
+    inline-size: auto;
+    margin: 0;
+  }
+
+  .descriptionNetnet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 28.0625rem;
+  }
+
+  .containerProject_3 .buttonStyle {
+    inline-size: 10.5rem;
+  }
+
+  .containerButton {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}

@@ -7,7 +7,7 @@ footer {
 footer p {
   display: inline-block;
   font: var(--body1);
-  color: var(--colorWhite);
+  color: var(--colorPurple);
   text-align: center;
 }
 
@@ -24,9 +24,11 @@ footer img {
     flex-wrap: wrap;
     padding: 0 1rem;
   }
+
   footer img {
     visibility: visible;
   }
+
   footer .containerContact {
     background: var(--colorWhite);
   }

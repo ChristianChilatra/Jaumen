@@ -1,0 +1,56 @@
+.containerProject_2 {
+  padding: 2.5rem 1rem;
+}
+
+.containerProject_2 img {
+  display: block;
+  margin: auto auto 2.5rem auto;
+  inline-size: 12rem;
+  border-radius: 0.5rem;
+  min-inline-size: 5.5rem;
+  block-size: 20.125rem;
+  border: 2px solid var(--colorPurple);
+  border-radius: 0.2rem;
+}
+
+.containerProject_2 p {
+  font: var(--body1);
+  color: var(--colorPurple);
+}
+
+.containerButton {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .containerProject_2 {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .containerProject_2 img {
+    block-size: 25.25rem;
+    inline-size: 15rem;
+    margin: 0;
+    margin-inline-end: 1rem;
+  }
+
+  .descriptionMarvol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 28rem;
+  }
+
+  .containerProject_2 .buttonStyle {
+    inline-size: 10.5rem;
+  }
+
+  .containerButton {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}
