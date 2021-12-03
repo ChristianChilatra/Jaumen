@@ -58,18 +58,14 @@
   }
 
   .wrapperMain .location {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
     align-items: center;
-    position: absolute;
-    inset-block-start: 36rem;
-    inset-inline-end: 34rem;
+
   }
 
   .wrapperMain .location p {
     display: inline-block;
     font: var(--headLine5);
+    margin: 0;
   }
 
   .wrapperMain .user {
@@ -77,6 +73,7 @@
     block-size: 35.5rem;
     margin: 0;
     border-radius: 10rem;
+    position: static;
   }
 
   .wrapperMain .buttonStyle {
