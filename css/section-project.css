@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 900px) {
   .wrapperProject {
-    padding: 12.5rem 1rem 5rem 1rem;
+    padding: 4.5rem 1rem 5rem 1rem;
     position: relative;
   }
 
@@ -63,7 +63,7 @@
   }
 
   .containerIcon-arrow {
-    margin-block-end: 12.5rem;
+    margin-block-end: 6.5rem;
   }
 
   .containerProject {

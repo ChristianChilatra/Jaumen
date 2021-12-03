@@ -4,13 +4,27 @@
   padding: 1rem;
 }
 
-.wrapperMain img {
+.wrapperMain .location {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.wrapperMain .location p {
+  display: inline-block;
+  font: var(--headLine5);
+}
+
+.wrapperMain .user {
   display: block;
   margin: auto;
   inline-size: 18rem;
   min-block-size: 20.66375rem;
   padding-block-end: 1rem;
   border-radius: 10rem;
+  position: relative;
+  inset-block-start: -6rem;
 }
 
 .wrapperMain h1 {
@@ -43,7 +57,22 @@
     gap: 4.1875rem;
   }
 
-  .wrapperMain img {
+  .wrapperMain .location {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    position: absolute;
+    inset-block-start: 36rem;
+    inset-inline-end: 34rem;
+  }
+
+  .wrapperMain .location p {
+    display: inline-block;
+    font: var(--headLine5);
+  }
+
+  .wrapperMain .user {
     inline-size: 20.25rem;
     block-size: 35.5rem;
     margin: 0;
