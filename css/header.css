@@ -24,8 +24,55 @@ header {
 }
 
 header .buttonStyle.purple {
-  inline-size: 9.5625rem;
+  visibility: hidden;
+}
+
+header .menu {
+  border: none;
+  display: block;
+  inline-size: 6rem;
+  block-size: 3rem;
+  background: url(../icon/icon-touch.svg);
+}
+
+header .sideBar {
+  position: absolute;
+  top: -50rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 2rem 0 0 0;
+  background-color: white;
+  inline-size: 20rem;
+  block-size: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  border-radius: .5rem;
+  transition: top .3s;
+}
+
+header .sideBar a {
+  text-decoration: none;
+  font: var(--button);
+  color: var(--colorPurple);
+  font-size: 1.4rem;
+}
+
+header .sideBar .curriculumSideBar {
+  visibility: visible;
+  background-color: var(--colorPurple);
+  color: var(--colorWhite);
   margin: 0;
+  inline-size: 12.5625rem;
+  block-size: 3rem;
+  border-radius: .2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 900px) {
@@ -40,6 +87,14 @@ header .buttonStyle.purple {
     gap: 2.5rem;
   }
 
+  header .menu {
+    display: none;
+  }
+
+  header .sideBar {
+    display: none;
+  }
+
   .wrapperHeader a {
     text-decoration: none;
     font: var(--button);
@@ -48,5 +103,11 @@ header .buttonStyle.purple {
 
   .wrapperHeader a:hover {
     color: var(--colorWhite);
+  }
+
+  header .buttonStyle.purple {
+    visibility: visible;
+    inline-size: 9.5625rem;
+    margin: 0;
   }
 }

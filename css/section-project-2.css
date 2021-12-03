@@ -6,8 +6,8 @@
   display: block;
   margin: auto auto 2.5rem auto;
   inline-size: 12rem;
-  border-radius: 0.5rem;
   min-inline-size: 5.5rem;
+  border-radius: 0.5rem;
   block-size: 20.125rem;
   border: 2px solid var(--colorPurple);
   border-radius: 0.2rem;
