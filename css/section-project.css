@@ -43,7 +43,13 @@
 }
 
 @media screen and (min-width: 900px) {
-  .wrapperProject {
+  .wrapperProject .movie{
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    padding: 4.5rem 1rem 5rem 1rem;
+  }
+  .wrapperProject .calendar{
     padding: 4.5rem 1rem 5rem 1rem;
     position: relative;
   }
